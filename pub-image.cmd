@@ -4,7 +4,7 @@ setlocal EnableExtensions
 rem docker-build-push.cmd - Windows CMD multi-platform Docker build and push script.
 rem Fill IMAGE_TAG with the remote image tag before running this script.
 
-set "IMAGE_TAG=YOUR_REGISTRY/cli-proxy-api:latest"
+set "IMAGE_TAG=tonyzzp/cli-proxy-api:latest"
 set "PLATFORMS=linux/amd64,linux/arm64"
 set "BUILDER_NAME=cli-proxy-api-builder"
 
